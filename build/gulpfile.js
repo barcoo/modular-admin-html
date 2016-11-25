@@ -23,7 +23,6 @@ var paths = {
 *********************************************/
 
 var buildTasks = utils.loadTasks(gulp, plugins, paths);
-
 gulp.task('build', buildTasks);
 
 /*********************************************
@@ -86,7 +85,7 @@ gulp.task('deploy', ['build'], function() {
 // // Run this task for development
 gulp.task('develop', [
 	'build',
-	'watch', 
+	'watch',
 	'connect'
 ]);
 
