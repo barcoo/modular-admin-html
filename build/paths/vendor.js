@@ -82,5 +82,8 @@ var bowerDir 		= config.bowerDir;
 
 	exports.fonts = [
   	bowerDir + "/font-awesome/fonts/fontawesome-webfont.eot",
-    bowerDir + "/font-awesome/fonts/fontawesome-webfont.svg"
+    bowerDir + "/font-awesome/fonts/fontawesome-webfont.svg",
+    bowerDir + "/font-awesome/fonts/fontawesome-webfont.ttf",
+    bowerDir + "/font-awesome/fonts/fontawesome-webfont.woff",
+    bowerDir + "/font-awesome/fonts/fontawesome-webfont.woff2"
   ];
